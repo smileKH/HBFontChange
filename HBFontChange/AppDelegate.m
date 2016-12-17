@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HBFontChangeVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,8 +16,37 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    HBFontChangeVC *vc = [[HBFontChangeVC alloc]init];
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = navi;
+    
+    
+    //测试 初始化文字大小
+    [self initFontSize];
+    
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void)initFontSize{
+
+    float titleFont = USERDEFAULT_float(TITLE_FONT);
+    if (titleFont==0) {
+        //一次性代码
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            //初始化
+            NSUserDefaults *fontDefaults = [NSUserDefaults standardUserDefaults];
+            //把所用的字体值保存下来
+            [fontDefaults setFloat:FONT_TITLE_SIZE forKey:TITLE_FONT];
+            [fontDefaults setFloat:FONT_CONTENT_SIZE forKey:CONTENT_FONT];
+            [fontDefaults setFloat:FONT_DETAILS_SIZE forKey:DETAILS_FONT];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+        });
+
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

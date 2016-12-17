@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  HBFontChange
+//
+//  Created by 胡明波 on 16/12/15.
+//  Copyright © 2016年 mingboJob. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "HBClassVC.h"
+
+#import "HBFontHeader.h"
+#import "UIView+SDAutoLayout.h"
+#import "UITableView+SDAutoTableViewCellHeight.h"
+#endif /* PrefixHeader_pch */

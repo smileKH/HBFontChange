@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		5DA7FE9F1E02D992009208B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FE9E1E02D992009208B5 /* main.m */; };
 		5DA7FEA21E02D992009208B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FEA11E02D992009208B5 /* AppDelegate.m */; };
-		5DA7FEA51E02D992009208B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FEA41E02D992009208B5 /* ViewController.m */; };
-		5DA7FEA81E02D992009208B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA7FEA61E02D992009208B5 /* Main.storyboard */; };
 		5DA7FEAA1E02D992009208B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA7FEA91E02D992009208B5 /* Assets.xcassets */; };
 		5DA7FEAD1E02D992009208B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA7FEAB1E02D992009208B5 /* LaunchScreen.storyboard */; };
 		5DA7FEB81E02D992009208B5 /* HBFontChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FEB71E02D992009208B5 /* HBFontChangeTests.m */; };
 		5DA7FEC31E02D992009208B5 /* HBFontChangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FEC21E02D992009208B5 /* HBFontChangeUITests.m */; };
+		5DA7FED21E02DA05009208B5 /* HBFontChangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FED11E02DA05009208B5 /* HBFontChangeVC.m */; };
+		5DA7FED61E02DA36009208B5 /* HBClassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FED51E02DA36009208B5 /* HBClassVC.m */; };
+		5DA7FEDA1E02DA9A009208B5 /* HBLabelChangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FED91E02DA9A009208B5 /* HBLabelChangeVC.m */; };
+		5DA7FEDD1E02DAB4009208B5 /* HBButtonChangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FEDC1E02DAB4009208B5 /* HBButtonChangeVC.m */; };
+		5DA7FEE01E02DAD8009208B5 /* HBTextViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FEDF1E02DAD8009208B5 /* HBTextViewVC.m */; };
+		5DA7FEE51E02DB98009208B5 /* HBTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FEE41E02DB98009208B5 /* HBTableCell.m */; };
+		5DA7FEEA1E02E52E009208B5 /* HBSetFontVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FEE91E02E52E009208B5 /* HBSetFontVC.m */; };
+		5DA7FEF01E02ED93009208B5 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FEED1E02ED93009208B5 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		5DA7FEF11E02ED93009208B5 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7FEEF1E02ED93009208B5 /* UIView+SDAutoLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +46,6 @@
 		5DA7FE9E1E02D992009208B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DA7FEA01E02D992009208B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DA7FEA11E02D992009208B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5DA7FEA31E02D992009208B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5DA7FEA41E02D992009208B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5DA7FEA71E02D992009208B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DA7FEA91E02D992009208B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA7FEAC1E02D992009208B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA7FEAE1E02D992009208B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,26 @@
 		5DA7FEBE1E02D992009208B5 /* HBFontChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBFontChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA7FEC21E02D992009208B5 /* HBFontChangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBFontChangeUITests.m; sourceTree = "<group>"; };
 		5DA7FEC41E02D992009208B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA7FED01E02DA05009208B5 /* HBFontChangeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBFontChangeVC.h; sourceTree = "<group>"; };
+		5DA7FED11E02DA05009208B5 /* HBFontChangeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBFontChangeVC.m; sourceTree = "<group>"; };
+		5DA7FED41E02DA36009208B5 /* HBClassVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBClassVC.h; sourceTree = "<group>"; };
+		5DA7FED51E02DA36009208B5 /* HBClassVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBClassVC.m; sourceTree = "<group>"; };
+		5DA7FED81E02DA9A009208B5 /* HBLabelChangeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLabelChangeVC.h; sourceTree = "<group>"; };
+		5DA7FED91E02DA9A009208B5 /* HBLabelChangeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLabelChangeVC.m; sourceTree = "<group>"; };
+		5DA7FEDB1E02DAB4009208B5 /* HBButtonChangeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBButtonChangeVC.h; sourceTree = "<group>"; };
+		5DA7FEDC1E02DAB4009208B5 /* HBButtonChangeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBButtonChangeVC.m; sourceTree = "<group>"; };
+		5DA7FEDE1E02DAD8009208B5 /* HBTextViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTextViewVC.h; sourceTree = "<group>"; };
+		5DA7FEDF1E02DAD8009208B5 /* HBTextViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTextViewVC.m; sourceTree = "<group>"; };
+		5DA7FEE31E02DB98009208B5 /* HBTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTableCell.h; sourceTree = "<group>"; };
+		5DA7FEE41E02DB98009208B5 /* HBTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTableCell.m; sourceTree = "<group>"; };
+		5DA7FEE61E02DC38009208B5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5DA7FEE71E02DD71009208B5 /* HBFontHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBFontHeader.h; sourceTree = "<group>"; };
+		5DA7FEE81E02E52E009208B5 /* HBSetFontVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBSetFontVC.h; sourceTree = "<group>"; };
+		5DA7FEE91E02E52E009208B5 /* HBSetFontVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBSetFontVC.m; sourceTree = "<group>"; };
+		5DA7FEEC1E02ED93009208B5 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		5DA7FEED1E02ED93009208B5 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		5DA7FEEE1E02ED93009208B5 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		5DA7FEEF1E02ED93009208B5 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +125,18 @@
 		5DA7FE9C1E02D992009208B5 /* HBFontChange */ = {
 			isa = PBXGroup;
 			children = (
+				5DA7FEEB1E02ED93009208B5 /* SDAutoLayout */,
 				5DA7FEA01E02D992009208B5 /* AppDelegate.h */,
 				5DA7FEA11E02D992009208B5 /* AppDelegate.m */,
-				5DA7FEA31E02D992009208B5 /* ViewController.h */,
-				5DA7FEA41E02D992009208B5 /* ViewController.m */,
-				5DA7FEA61E02D992009208B5 /* Main.storyboard */,
+				5DA7FEE61E02DC38009208B5 /* PrefixHeader.pch */,
+				5DA7FEE71E02DD71009208B5 /* HBFontHeader.h */,
+				5DA7FED31E02DA11009208B5 /* base */,
+				5DA7FED01E02DA05009208B5 /* HBFontChangeVC.h */,
+				5DA7FED11E02DA05009208B5 /* HBFontChangeVC.m */,
+				5DA7FEE81E02E52E009208B5 /* HBSetFontVC.h */,
+				5DA7FEE91E02E52E009208B5 /* HBSetFontVC.m */,
+				5DA7FEE21E02DB5C009208B5 /* view */,
+				5DA7FED71E02DA57009208B5 /* UIFontChange */,
 				5DA7FEA91E02D992009208B5 /* Assets.xcassets */,
 				5DA7FEAB1E02D992009208B5 /* LaunchScreen.storyboard */,
 				5DA7FEAE1E02D992009208B5 /* Info.plist */,
@@ -138,6 +169,48 @@
 				5DA7FEC41E02D992009208B5 /* Info.plist */,
 			);
 			path = HBFontChangeUITests;
+			sourceTree = "<group>";
+		};
+		5DA7FED31E02DA11009208B5 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7FED41E02DA36009208B5 /* HBClassVC.h */,
+				5DA7FED51E02DA36009208B5 /* HBClassVC.m */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		5DA7FED71E02DA57009208B5 /* UIFontChange */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7FED81E02DA9A009208B5 /* HBLabelChangeVC.h */,
+				5DA7FED91E02DA9A009208B5 /* HBLabelChangeVC.m */,
+				5DA7FEDB1E02DAB4009208B5 /* HBButtonChangeVC.h */,
+				5DA7FEDC1E02DAB4009208B5 /* HBButtonChangeVC.m */,
+				5DA7FEDE1E02DAD8009208B5 /* HBTextViewVC.h */,
+				5DA7FEDF1E02DAD8009208B5 /* HBTextViewVC.m */,
+			);
+			name = UIFontChange;
+			sourceTree = "<group>";
+		};
+		5DA7FEE21E02DB5C009208B5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7FEE31E02DB98009208B5 /* HBTableCell.h */,
+				5DA7FEE41E02DB98009208B5 /* HBTableCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		5DA7FEEB1E02ED93009208B5 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7FEEC1E02ED93009208B5 /* UITableView+SDAutoTableViewCellHeight.h */,
+				5DA7FEED1E02ED93009208B5 /* UITableView+SDAutoTableViewCellHeight.m */,
+				5DA7FEEE1E02ED93009208B5 /* UIView+SDAutoLayout.h */,
+				5DA7FEEF1E02ED93009208B5 /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +280,6 @@
 				TargetAttributes = {
 					5DA7FE991E02D992009208B5 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = SG5FCD3JM6;
 					};
 					5DA7FEB21E02D992009208B5 = {
 						CreatedOnToolsVersion = 7.2;
@@ -248,7 +320,6 @@
 			files = (
 				5DA7FEAD1E02D992009208B5 /* LaunchScreen.storyboard in Resources */,
 				5DA7FEAA1E02D992009208B5 /* Assets.xcassets in Resources */,
-				5DA7FEA81E02D992009208B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +344,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA7FEA51E02D992009208B5 /* ViewController.m in Sources */,
+				5DA7FEF11E02ED93009208B5 /* UIView+SDAutoLayout.m in Sources */,
+				5DA7FEDA1E02DA9A009208B5 /* HBLabelChangeVC.m in Sources */,
 				5DA7FEA21E02D992009208B5 /* AppDelegate.m in Sources */,
+				5DA7FEE51E02DB98009208B5 /* HBTableCell.m in Sources */,
+				5DA7FEEA1E02E52E009208B5 /* HBSetFontVC.m in Sources */,
+				5DA7FEF01E02ED93009208B5 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				5DA7FEDD1E02DAB4009208B5 /* HBButtonChangeVC.m in Sources */,
+				5DA7FED21E02DA05009208B5 /* HBFontChangeVC.m in Sources */,
+				5DA7FEE01E02DAD8009208B5 /* HBTextViewVC.m in Sources */,
 				5DA7FE9F1E02D992009208B5 /* main.m in Sources */,
+				5DA7FED61E02DA36009208B5 /* HBClassVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +390,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5DA7FEA61E02D992009208B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5DA7FEA71E02D992009208B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5DA7FEAB1E02D992009208B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,7 +485,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HBFontChange/PrefixHeader.pch";
 				INFOPLIST_FILE = HBFontChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mingboJob.HBFontChange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,7 +499,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HBFontChange/PrefixHeader.pch";
 				INFOPLIST_FILE = HBFontChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mingboJob.HBFontChange;
 				PRODUCT_NAME = "$(TARGET_NAME)";

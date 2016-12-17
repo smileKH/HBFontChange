@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HBTableCell.h
 //  HBFontChange
 //
 //  Created by 胡明波 on 16/12/15.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HBTableCell : UITableViewCell
 
+
+@property (nonatomic ,strong)NSString *titleString;
 
 @end
-
